@@ -676,6 +676,8 @@ public class AspNetCoreServerCodegen extends AbstractCSharpCodegen {
     private String determineTemplateVersion(String frameworkVersion) {
         switch (frameworkVersion) {
             case "6.0":
+                return "6.0";
+
             case "5.0":
             case "3.1":
                 return "3.0";
